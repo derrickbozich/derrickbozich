@@ -1,0 +1,33 @@
+header{
+  background-color: hsla(0, 100%, 50%, 0.5);
+  grid-area: header;
+  display: grid;
+  padding: 1em;
+  grid-gap: 1em;
+
+  .box{
+    text-align: center;
+    align-self: center;
+    .brand{
+      font-size: 3em;
+      
+    }
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+    a{
+      margin-right: 1em;
+    }
+  }
+  @media only screen and (min-width: 860px){
+    grid-template-columns: 1fr 1fr;
+    .box{
+      // outline: 2px solid black;
+    }
+    .nav{
+      justify-content: flex-end;
+    }
+  }
+
+}

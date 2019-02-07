@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/libs.css')
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    header
+      .box
+        a(href='/')
+          h1.brand Derrick Bozich
+        h3 full stack web developer
+      .box.nav
+        a(href='/about')
+          h4 About
+        a(href='/contact')
+          h4 Contact
+
+    main
+      block content
+    footer
+      .box box1
+      .box box2
+      .box box3

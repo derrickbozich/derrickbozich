@@ -1,0 +1,14 @@
+footer{
+  background-color: hsla(240, 100%, 50%, 0.5);
+  grid-area: footer;
+  display: grid;
+  text-align: center;
+
+  @media only screen and (min-width: 860px){
+    grid-template-columns: 1fr 1fr 1fr;
+    .box{
+      outline: 2px solid black;
+    }
+  }
+
+}
